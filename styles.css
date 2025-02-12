@@ -1,0 +1,401 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #2c241e;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: black;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ffdb4d;
+}
+
+/* Why Study MBBS Abroad */
+.why-mbbs {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.why-mbbs h2 {
+    font-size: 24px;
+}
+
+
+/* Admission Process */
+.admission {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.admission ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admission li {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+/* Call-to-Action Form */
+.cta-form {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.cta-form form {
+    max-width: 400px;
+    margin: auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input,
+.cta-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cta-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2c241e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-form button:hover {
+    background-color: #2c241e;
+}
+/* Header Section */
+.header {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+/* Background Image */
+.header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area properly */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Overlay for better readability */
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay (adjust opacity as needed) */
+}
+
+/* Text on Image */
+.header-content {
+    position: absolute;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    font-style: italic;
+}
+/* Why Study MBBS Abroad Section */
+.why-mbbs {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+/* Heading */
+.why-mbbs h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Card Container */
+.why-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Individual Card */
+.why-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.why-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Icons/Images */
+.why-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+/* Card Title */
+.why-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #2c241e;
+}
+
+/* Card Text */
+.why-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Top Countries Section */
+.top-countries {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #534439, #15110e); /* Gradient background */
+    color: white;
+}
+
+/* Heading */
+.top-countries h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Countries Container */
+.countries-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Country Card */
+.country-card {
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 180px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.country-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Country Images */
+.country-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%; /* Circular images */
+    border: 3px solid #2c241e;
+}
+
+/* Country Name */
+.country-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Admission Section */
+.admission {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f8f9fa;
+}
+
+/* Admission Title */
+.admission h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Steps Container */
+.admission-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Each Step Card */
+.admission-step {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Step Number */
+.admission-step span {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: 2c241e;
+    margin-bottom: 10px;
+}
+
+/* Step Description */
+.admission-step p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Hover Effect */
+.admission-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Modal Background */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Modal Content */
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #555;
+}
+
+.close:hover {
+    color: black;
+}
+
+/* Form Styles */
+.modal form input,
+.modal form select,
+.modal form button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal form button {
+    background-color: #2c241e;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.modal form button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .why-container, .admission-steps, .countries-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

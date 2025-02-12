@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking the CSS file -->
+    
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="assets/header.png" alt="MBBS Abroad Banner" class="header-img">
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1>Study MBBS Abroad</h1>
+            <p>Studying MBBS abroad is a popular choice for students who want affordable 
+               medical education with global recognition. Many countries offer high-quality 
+               medical programs at lower costs compared to private medical colleges in India.</p>
+        </div>
+    </header>
+    
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Apply Now for MBBS Abroad</h1>
+        <p>Study in top medical universities worldwide!</p>
+        <button class="cta-button" onclick="openApplyForm()">Apply Now</button>
+    </section>
+
+    <!-- Why Study MBBS Abroad -->
+    <section class="why-mbbs">
+        <h2>Why Study MBBS Abroad?</h2>
+        <div class="why-container">
+            <div class="why-card">
+                <img src="assets/affordable.jpeg" alt="Affordable Education">
+                <h3>Affordable Education</h3>
+                <p>Studying MBBS abroad is often more affordable compared to private colleges in India.</p>
+            </div>
+            <div class="why-card">
+                <img src="assets/global.jpeg" alt="Global Recognition">
+                <h3>Global Recognition</h3>
+                <p>Degrees from top international universities are recognized worldwide.</p>
+            </div>
+            <div class="why-card">
+                <img src="assets/quality.jpeg" alt="Quality Education">
+                <h3>Quality Education</h3>
+                <p>Many universities offer top-notch medical education with advanced facilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wrap Admission and Top Countries in one container -->
+<div class="admission-countries">
+    
+    <!-- Admission Section -->
+    <section class="admission">
+        <h2>Admission Process & Eligibility</h2>
+        <div class="admission-steps">
+            <div class="admission-step"><p>Check Eligibility Criteria</p></div>
+            <div class="admission-step"><p>Choose Your University & Country</p></div>
+            <div class="admission-step"><p>Submit Required Documents</p></div>
+            <div class="admission-step"><p>Receive Admission Letter</p></div>
+            <div class="admission-step"><p>Apply for Visa</p></div>
+            <div class="admission-step"><p>Fly & Start Your MBBS Journey</p></div>
+        </div>
+    </section>
+
+    <!-- Top Countries Section -->
+    <section class="top-countries">
+        <h2>Top Countries for MBBS Abroad</h2>
+        <div class="countries-container">
+            <div class="country-card"><img src="assets/russia.jpeg" alt="Russia"><h3>Russia</h3></div>
+            <div class="country-card"><img src="assets/uzbekistan.jpeg" alt="Uzbekistan"><h3>Uzbekistan</h3></div>
+            <div class="country-card"><img src="assets/kazakhstan.jpeg" alt="Kazakhstan"><h3>Kazakhstan</h3></div>
+            <div class="country-card"><img src="assets/philippines.jpeg" alt="Philippines"><h3>Philippines</h3></div>
+            <div class="country-card"><img src="assets/georgia.jpeg" alt="Georgia"><h3>Georgia</h3></div>
+            <div class="country-card"><img src="assets/kyrgyzstan.jpeg" alt="Kyrgyzstan"><h3>Kyrgyzstan</h3></div>
+            <div class="country-card"><img src="assets/egypt.jpeg" alt="Egypt"><h3>Egypt</h3></div>
+        </div>
+    </section>
+
+</div>
+
+
+    <!-- Apply Now Popup -->
+    <div id="applyModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeApplyForm()">&times;</span>
+            <h2>Apply Now</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Your Phone" required>
+                <select required>
+                    <option value="">Select Country</option>
+                    <option>Russia</option>
+                    <option>Uzbekistan</option>
+                    <option>Kazakhstan</option>
+                    <option>Philippines</option>
+                    <option>Georgia</option>
+                    <option>Kyrgyzstan</option>
+                    <option>Egypt</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>
